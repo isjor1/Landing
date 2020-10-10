@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>Dice Roll</title>
+    <link rel="stylesheet" type="text/css" href="dice.css">
+</head>
+<body onload="dieRoll()">
+<div>
+<h1>Welcome to Yahtzee!</h1>
+<p>The dice will automatically roll as soon as you load the page</p>
+<p>You can also click each button or press enter to roll all of them</p>
+    <p>Click the button to roll the dice</p>
+    <button onclick="dieRoll()" autofocus>Roll Dice</button>
+    <p id="Dice"></p>
+
+    <p>Click the button to roll the dice</p>
+    <button onclick="dieRoll()">Roll Dice</button>
+    <p id="Dice2"></p>
+
+    <p>Click the button to roll the dice</p>
+    <button onclick="dieRoll()">Roll Dice</button>
+    <p id="Dice3"></p>
+
+    <p>Click the button to roll the dice</p>
+    <button onclick="dieRoll()">Roll Dice</button>
+    <p id="Dice4"></p>
+
+    <p>Click the button to roll the dice</p>
+    <button onclick="dieRoll()">Roll Dice</button>
+    <p id="Dice5"></p>
+
+
+<script>
+    function dieRoll() {
+        var x = Math.floor((Math.random() * 6) + 1);
+        document.getElementById("Dice").innerHTML = "You rolled " + x;
+    
+        var y = Math.floor((Math.random() * 6) + 1);
+        document.getElementById("Dice2").innerHTML = "You rolled " + y;
+        
+        var z = Math.floor((Math.random() * 6) + 1);
+        document.getElementById("Dice3").innerHTML ="You rolled " + z;
+
+        var a = Math.floor((Math.random() * 6) + 1);
+        document.getElementById("Dice4").innerHTML ="You rolled " + a;
+        var b = Math.floor((Math.random() * 6) + 1);
+        document.getElementById("Dice5").innerHTML ="You rolled " + b;
+         
+    }
+</script>
+</div>
+</body>
+</html>

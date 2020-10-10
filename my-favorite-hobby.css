@@ -1,0 +1,35 @@
+ 
+div {
+  width: 2000px;
+  height: 2000px;
+  background-color: rgb(15, 175, 228);
+  animation-name: example;
+  animation-duration: 10s;
+}
+
+	
+@keyframes example{
+from {background-color: red;}
+to {background-color: green;}
+}
+
+h1 {
+  color: black;
+}
+p {
+  color: white;
+}
+
+
+a:visited {
+  color: white;
+}
+a:hover {
+  color: lightgreen;
+}
+
+a:active {
+  color: yellow;
+}
+
+
