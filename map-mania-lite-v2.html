@@ -1,0 +1,21 @@
+<!doctype html>
+<html lang="en">
+
+    <head>
+        <meta charset="UTF-8">
+        <title>Map Mania Lite</title>
+        <link rel="stylesheet" href="map-mania-lite.css">
+        <script src="map-mania-lite-v2.js"></script>
+    </head>
+    <body onload="initApplication()">
+        <h1> Jordan's &quot;Top Ten&quot; Favorite Places to Visit Game</h1>        
+        Hint: <input id="hint-id" type="text" value="" size="120" disabled><br><br>
+        Score: <input id="score-id" type="text" value="" size="2" disabled><br><br>
+
+        <div id="myMapID"></div>
+
+         <script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyAdU4zBt6KINB3uWEfcEhT0wIf2bDGL8sE&callback=initMap"
+            async defer>
+        </script>
+    </body>
+</html>
