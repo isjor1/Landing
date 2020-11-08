@@ -1,0 +1,31 @@
+ 
+div {
+  width: 2000px;
+  height: 2000px;
+  background-color: rgb(15, 175, 228);
+  text-align: center;
+
+}
+
+h1 {
+  color: white;
+  font-size:40px;
+}
+
+p {
+  color: white;
+  font-size:18px;
+}
+
+a:visited {
+  color: lightgreen;
+}
+a:hover {
+  color: darkblue;
+}
+
+a:active {
+  color: red;
+}
+
+

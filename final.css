@@ -1,0 +1,20 @@
+ 
+div {
+  width: 2000px;
+  height: 2000px;
+  background-color: rgb(72, 0, 167);
+  text-align: center;
+
+}
+
+h1{
+  color: blue;
+  font-size:40px;
+}
+
+p {
+  color: Green;
+  font-size:25px;
+}
+
+
