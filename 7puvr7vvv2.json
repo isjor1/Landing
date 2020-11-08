@@ -1,0 +1,19 @@
+{
+	"firstName":"Jordan",
+	"lastName":"Smith",
+	"preferredName":"Jordan",
+	"email":"jordancsmith@lewisu.edu",
+	"phoneNumber":"815-725-7686",
+	"class":"cpsc-24700-001",
+	"room":"AS-104-A",
+	"startTime":"3pm CT",
+	"seatNumber":"123",
+	"inPerson":[ "Monday" ],
+	"virtual": [ "Wednesday", "Friday" ],
+	"city":"Joliet",
+	"state":"IL",
+	"zip":"60435",
+	"lat":"41.525",
+	"lng":"-88.0817", 
+	"favoriteHobby": "Gaming"
+}

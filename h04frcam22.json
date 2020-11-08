@@ -1,0 +1,19 @@
+{
+	"firstName":"Finn",
+	"lastName":"Mertens",
+	"preferredName":"Finn the human",
+	"email":"billyfan1@lewisu.edu",
+	"phoneNumber":"000-BMO-hero",
+	"class":"cpsc-24700-001",
+	"room":"AS-104-A",
+	"startTime":"3pm CT",
+	"seatNumber":"123",
+	"inPerson":[ "Monday" ],
+	"virtual": [ "Wednesday", "Friday" ],
+	"city":"Candy Kindom",
+	"state":"OOO",
+	"zip":"60148",
+	"lat":"1.282",
+	"lng":"103.8639", 
+	"favoriteHobby": "adventuring"
+}
